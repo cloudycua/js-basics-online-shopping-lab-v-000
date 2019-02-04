@@ -63,7 +63,7 @@ function placeOrder(cardNumber) {
   if (!cardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   } else {
-      var totalCost
+      var totalCost = 0
       for (var i in cart) {
         totalCost += cart[i].itemPrice
         cart.splice(i, 1)
