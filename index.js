@@ -52,7 +52,11 @@ function removeFromCart(item) {
       removedItem = cart.splice(i, 1)
     }
   }
-  if (!removedItem) ? return cart : return "That item is not in your cart."
+  if (!removedItem) {
+    return cart
+  } else {
+    return "That item is not in your cart."
+  }
 }
 
 function placeOrder(cardNumber) {
