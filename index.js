@@ -50,7 +50,6 @@ function removeFromCart(item) {
     if (cart[i].itemName == item) {
       debugger
       cart.splice(i, 1)
-
     }
   return cart
   }
