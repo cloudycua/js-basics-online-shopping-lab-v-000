@@ -52,6 +52,7 @@ function removeFromCart(item) {
     }
   return cart
   }
+  debugger
 }
 
 function placeOrder(cardNumber) {
