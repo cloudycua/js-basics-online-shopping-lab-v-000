@@ -68,6 +68,6 @@ function placeOrder(cardNumber) {
         totalCost += cart[i].itemPrice
         cart[i].splice(i, 1)
       }
-      return `Your total cost is $${totalCost}, which will be chaged to the card ${cardNumber}.`
+      return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`
   }
 }
