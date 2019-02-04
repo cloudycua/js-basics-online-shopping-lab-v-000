@@ -49,11 +49,11 @@ function removeFromCart(item) {
   for (var cartItem in cart) {
     if (item == cart[cartItem].itemName) {
       delete cart[cartItem]
+      return cart
     } else {
       return "That item is not in your cart."
     }
-  }
-  return cart
+  }  
 }
 
 function placeOrder(cardNumber) {
