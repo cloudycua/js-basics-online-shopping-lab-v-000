@@ -55,7 +55,7 @@ function removeFromCart(item) {
   if (itemRemoved) {
     return cart
   } else {
-    return "That item is not in your cart."
+      return "That item is not in your cart."
   }
 }
 
@@ -63,6 +63,9 @@ function placeOrder(cardNumber) {
   if (!cardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   } else {
-
+      for (var i in cart) {
+        cart[i].splice(i, 1)
+      }
+      
   }
 }
