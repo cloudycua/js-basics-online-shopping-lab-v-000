@@ -52,7 +52,7 @@ function removeFromCart(item) {
       var itemRemoved = true
     }
   }
-  if itemRemoved {
+  if (itemRemoved) {
     return cart
   } else {
     return "That item is not in your cart."
