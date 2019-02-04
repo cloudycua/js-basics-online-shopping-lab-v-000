@@ -49,9 +49,9 @@ function removeFromCart(item) {
   for (var i in cart) {
 
     if (cart[i].itemName == item) {
-
+debugger
       cart.splice(i, 1)
-      debugger
+      
     }
   return cart
   }
