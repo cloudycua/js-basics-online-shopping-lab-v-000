@@ -53,7 +53,6 @@ function removeFromCart(item) {
     }
   }
   if (itemRemoved) {
-    debugger
     return cart
   } else {
     return "That item is not in your cart."
