@@ -66,6 +66,6 @@ function placeOrder(cardNumber) {
       for (var i in cart) {
         cart[i].splice(i, 1)
       }
-      
+
   }
 }
