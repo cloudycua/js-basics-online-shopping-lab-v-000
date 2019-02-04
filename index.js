@@ -52,7 +52,7 @@ function removeFromCart(item) {
     }
 
   debugger
-    
+
   return cart
   }
 }
