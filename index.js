@@ -69,6 +69,5 @@ function placeOrder(cardNumber) {
         cart[i].splice(i, 1)
       }
       return `Your total cost is $${totalCost}, which will be chaged to the card ${cardNumber}.`
-
   }
 }
