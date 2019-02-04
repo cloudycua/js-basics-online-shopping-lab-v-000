@@ -50,6 +50,9 @@ function removeFromCart(item) {
     if (cart[i].itemName == item) {
       delete cart[i]
     }
+
+  debugger
+    
   return cart
   }
 }
